@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="cloudy.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="weather-container">
+
+        <h2>Weather App</h2>
+
+        <select id="cityInput">
+            <option value="">Select City</option>
+
+            <option value="Nashik">Nashik</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Sambahjinagar">Sambhajinagar</option>
+            <option value="Thane">Thane</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Surat">Surat</option>
+            <option value="Indore">Indore</option>
+            <option value="Bhopal">Bhopal</option>
+            <option value="Goa">Goa</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Patna">Patna</option>
+            <option value="Varanasi">Varanasi</option>
+            <option value="Amritsar">Amritsar</option>
+            <option value="Mysuru">Mysuru</option>
+            <option value="Dehradun">Dehradun</option>
+        </select>
+
+        <button onclick="getWeather()">Get Weather</button>
+
+        <div class="result" id="weatherResult"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
